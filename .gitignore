@@ -121,3 +121,8 @@ secrets.yml
 .gradletasknamecache
 .sts4-cache
 *.webp
+
+
+# mysql data dir
+data/*
+!data/.keep
