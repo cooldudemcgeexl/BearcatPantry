@@ -125,3 +125,6 @@ secrets.yml
 
 # Maven compiler output
 server/target/maven-status/maven-compiler-plugin/*
+# mysql data dir
+data/*
+!data/.keep
