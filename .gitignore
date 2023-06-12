@@ -121,3 +121,7 @@ secrets.yml
 .gradletasknamecache
 .sts4-cache
 *.webp
+
+
+# Maven compiler output
+server/target/maven-status/maven-compiler-plugin/*
