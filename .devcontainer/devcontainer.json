@@ -1,0 +1,27 @@
+{
+  "name": "BearcatPantry",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/var/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-debug",
+        "ms-azuretools.vscode-docker",
+        "EditorConfig.EditorConfig",
+        "vscjava.vscode-java-pack",
+        "mhutchie.git-graph",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "vscjava.vscode-maven",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test",
+        "ritwickdey.LiveServer",
+        "ms-vsliveshare.vsliveshare",
+        "ms-vscode.live-server"
+      ]
+    }
+  },
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+}
